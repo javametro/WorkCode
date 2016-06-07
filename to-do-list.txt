@@ -1,0 +1,4 @@
+2016/06/08
+1,update the fix-winre script.
+	i)if the c:\recovery\windowsRE\boot.sdi is not exist, then goto end, do not exec this script.
+	i)modify the msgbox strings for end-user.
