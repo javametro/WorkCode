@@ -3,3 +3,7 @@ $# 获取参数的数目
 
 @ 全部参数
 # 参数数目
+
+
+2,use 'apropos' to look for document
+
