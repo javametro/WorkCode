@@ -7,3 +7,15 @@ $# 获取参数的数目
 
 2,use 'apropos' to look for document
 
+3, for syntax
+	for ((;;)) do
+	
+	done
+
+
+
+
+Reference Books:
+1,<Advanced Bash Scripting Guide>
+2,<Unix Shell Programming>
+3,<Linux Shell Scripting Tutorial - A Beginner's handbook>
