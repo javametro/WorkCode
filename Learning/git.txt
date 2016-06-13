@@ -9,3 +9,12 @@
 3, difference from last modify
 	git diff
 	git diff -staged/-cached
+
+4, delete file from staged area
+	git rm
+
+5, check the history of commit
+	git log
+	git log -p -2
+	git log --stat
+	git log --pretty=oneline
