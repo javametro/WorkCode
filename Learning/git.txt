@@ -1,0 +1,7 @@
+1, check the git configuration
+	git config --list
+
+2, require for help
+	git help <verb>
+	git <verb> --help
+	man git-<verb>
