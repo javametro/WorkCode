@@ -1,0 +1,14 @@
+help:
+	man -k
+	whatis/info
+	which
+	man
+		(1),user can operate's command and executable file
+		(2),system call function and tools
+		(3),frequency use function and database
+		(4),device file's introduction
+		(5),set file/file format
+		(6),game
+		(7),protocols
+		(8),system administrator use manage commands
+		(9),kernel related files
