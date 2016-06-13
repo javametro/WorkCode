@@ -5,3 +5,7 @@
 	git help <verb>
 	git <verb> --help
 	man git-<verb>
+
+3, difference from last modify
+	git diff
+	git diff -staged/-cached
