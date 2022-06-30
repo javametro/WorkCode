@@ -14,7 +14,7 @@ namespace RunCommand
             System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
             startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
             startInfo.FileName = "cmd.exe";
-            startInfo.Arguments = "/C schtasks /change /tn HardwareNotifyApp2 /DELAY 0002:00";
+            startInfo.Arguments = "/C schtasks /change /tn \"Lenovo\\Power Manager\\Background monitor\" /DELAY 0001:00";
             process.StartInfo = startInfo;
             process.Start();
             Console.ReadLine();
