@@ -1,4 +1,8 @@
 @echo off 
+:: clear git 
+git clean -f -d -x 
+
+pause 
 :: clear temp files 
 if exist TencentFile.zip (
 	del TencentFile.zip
