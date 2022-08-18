@@ -1,10 +1,10 @@
 @echo off 
 
-if exist "C:\Users\stephen\Documents\Tencent Files" (
+if exist "%userprofile%\Documents\Tencent Files" (
 	echo QQ/Tim files exist
 )
 
-if exist "C:\Users\stephen\Documents\WeChat Files" (
+if exist "%userprofile%\Documents\WeChat Files" (
 	echo Wechat files exist
 )
 
