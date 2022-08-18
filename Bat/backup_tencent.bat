@@ -1,4 +1,12 @@
 @echo off 
+:: clear temp files 
+if exist TencentFile.zip (
+	del TencentFile.zip
+)
+
+if exist WechatFiles.zip (
+	del WechatFiles.zip
+)
 
 if exist "%userprofile%\Documents\Tencent Files" (
 	echo QQ/Tim files exist
